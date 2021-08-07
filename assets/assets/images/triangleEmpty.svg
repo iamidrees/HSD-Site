@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="triangleEmpty" fill="none">
+    <path d="M20,0,40,40H0Z" stroke="none"/>
+    <path d="M 20 8.944269180297852 L 6.472133636474609 36 L 33.52786636352539 36 L 20 8.944269180297852 M 20 0 L 40 40 L 0 40 L 20 0 Z" stroke="none" fill="#000"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144.638" height="89.487" viewBox="0 0 144.638 89.487">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="iconfinder_simpline_13_2305639" transform="translate(-2.5 -13.278)">
+    <path id="Path_137" data-name="Path 137" class="cls-1" d="M57.656,31.092c0,8.766-7.137,24.049-15.9,24.049s-15.9-15.308-15.9-24.1a15.9,15.9,0,0,1,31.781,0Z" transform="translate(33.066 0)"/>
+    <path id="Path_138" data-name="Path 138" class="cls-1" d="M19.34,68.377a32.737,32.737,0,1,1,65.475,0" transform="translate(22.742 31.499)"/>
+    <path id="Path_139" data-name="Path 139" class="cls-1" d="M69.983,34.025c0,7.422-6.025,20.687-13.447,20.687S43.09,41.343,43.09,34.025a13.46,13.46,0,1,1,26.919,0Z" transform="translate(60.407 7.592)"/>
+    <path id="Path_140" data-name="Path 140" class="cls-1" d="M41.81,43.346A27.721,27.721,0,0,1,86.261,65.455" transform="translate(58.377 34.809)"/>
+    <path id="Path_141" data-name="Path 141" class="cls-1" d="M10.526,34.025c0,7.422,6.025,20.687,13.447,20.687S37.419,41.343,37.419,34.025a13.46,13.46,0,1,0-26.919,0Z" transform="translate(8.722 7.592)"/>
+    <path id="Path_142" data-name="Path 142" class="cls-1" d="M49.451,43.346A27.721,27.721,0,0,0,5,65.455" transform="translate(0 34.809)"/>
+  </g>
+</svg>

@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.showcase {
+  background-image: url("../assets/assets/images/homepageslide1.jpg");
+  min-height: 350px;
+  background-size: cover;
+  /* width: 600px; */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+header #logo {
+  object-fit: contain;
+  width: 200px;
+}
+header #hamburger {
+  object-fit: contain;
+  width: 30px;
+}
+
+.showcase-text {
+  color: #fff;
+  padding: 220px 0px 0px 20px;
+  font-size: 1em;
+  letter-spacing: -0.5px;
+}
+.showcase-text h3 {
+  padding: 5px 0px;
+  font-size: 1em;
+  margin-left: -3px;
+}
+
+/*SHOWCASE AREA ENDS HERE
+
+/* .showcase-text p:nth-child(2) {
+  font-weight: 600;
+  padding: 5px 0px;
+  font-size: 18px;
+} */
+
+main {
+  margin-top: 20px;
+}
+main #forward-carret {
+  margin-left: -15px;
+}
+
+main > h4 {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-left: -10px;
+}
+
+main > p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main > h3 {
+  font-weight: 500;
+  text-shadow: 0.4px 0.4px 0.4px black;
+}
+main > ul {
+  margin-left: 20px;
+}
+main ul li {
+  padding: 20px 0px;
+  list-style-type: none;
+}
+
+main ul li img {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+
+/* BOXES STARTS FROM HERE */
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+main .box1,
+main .box2,
+main .box3,
+main .box4 {
+  padding: 10px 10px 0px 10px;
+  flex-basis: 260px;
+  min-height: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  /* flex-grow: 1; */
+  text-align: center;
+}
+
+.box1 h2,
+.box2 h2,
+.box3 h2,
+.box4 h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+  text-align: left;
+}
+
+main .box3 {
+  flex-basis: 220px;
+}
+.our-services {
+  margin-top: 30px;
+  text-align: center;
+}
+.our-services h1 {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font-weight: 500;
+}
+
+/*USELESS CODE BELOW 
+/* .our-services .services-photos {
+}
+
+.our-services .services-photos img {
+  background-color: red;
+  border-radius: 5px;
+  padding: 70px;
+  /* width: 150px;
+  height: 170px; 
+}
+
+.our-services h3 {
+  display: inline;
+  bg
+} */
+/* .services-photos #first-pic {
+  background-color: red;
+  /* width: 50%;
+  text-align: left;
+  padding: 20px 90px; 
+}
+.services-photos #first-pic h3 {
+  text-align: left;
+  padding: 20px;
+} 
+
+USELESS CODE ENDS HERE */
+
+.our-services .services-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  color: #fff;
+}
+.our-services .services-photos div {
+  background-color: red;
+  border-radius: 8px;
+  padding: 20px 0px;
+}
+.our-services .services-photos div img {
+  width: 50px;
+  padding: 10px 0px;
+}
+
+@media (min-width: 768px) {
+  main .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    column-gap: 20px;
+  }
+  .showcase-text {
+    font-size: 1.5em;
+    /* color: black; */
+    position: relative;
+    top: 100px;
+  }
+  .showcase {
+    background-image: url("../assets/assets/images/homepageslide1.jpg");
+    background-size: cover;
+    height: 55vh;
+  }
+}
+
+@media (min-width: 1207px) {
+  main .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    column-gap: 20px;
+  }
+  main ul {
+    width: 30%;
+    float: left;
+  }
+
+  .our-services .services-photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+  }
+  .our-services .services-photos div {
+    padding: 20px;
+  }
+  .showcase {
+    background-image: url("../assets/assets/images/homepageslide1.jpg");
+    background-size: cover;
+    height: 70vh;
+  }
+  .showcase-text {
+    font-size: 1.8em;
+    /* color: black; */
+    position: relative;
+    top: 220px;
+    margin-left: 120px;
+    text-shadow: 1px 1px 1px white;
+  }
+}
