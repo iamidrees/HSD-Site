@@ -49,11 +49,12 @@ header #hamburger {
 
 /*SHOWCASE AREA ENDS HERE
 
-/* .showcase-text p:nth-child(2) {
+ .showcase-text p:nth-child(2) {
   font-weight: 600;
   padding: 5px 0px;
   font-size: 18px;
-} */
+} 
+*/
 
 main {
   margin-top: 20px;
@@ -145,25 +146,27 @@ main .box3 {
   font-weight: 500;
 }
 
-/*USELESS CODE BELOW 
-/* .our-services .services-photos {
+/*USELESS CODE BELOW
+
+.our-services .services-photos {
 }
 
 .our-services .services-photos img {
   background-color: red;
   border-radius: 5px;
   padding: 70px;
-  /* width: 150px;
+  width: 150px;
   height: 170px; 
 }
 
 .our-services h3 {
   display: inline;
   bg
-} */
-/* .services-photos #first-pic {
+}
+
+.services-photos #first-pic {
   background-color: red;
-  /* width: 50%;
+  width: 50%;
   text-align: left;
   padding: 20px 90px; 
 }
@@ -262,7 +265,7 @@ footer {
 
 /*USELESS CODE
 
-/* .collab {
+.collab {
   display: inline-block;
   text-align: right;
   margin-left: 10%;
