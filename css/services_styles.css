@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header#main-header {
+  background-image: url("../assets/assets/images/servicesCover.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+#main-header nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+#main-header #main-logo {
+  width: 200px;
+}
+
+#main-header #hamburger {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.header-text {
+  margin-top: 200px;
+}
+.header-text h1,
+.header-text p,
+.header-text button {
+  padding: 15px 0px;
+}
+
+.header-text button {
+  padding: 10px 20px;
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1em;
+}
+
+main {
+  margin-top: 50px;
+}
+
+main img {
+  width: 100%;
+}
+
+main h1 {
+  padding: 30px 0px;
+}
+main p {
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  .app-development,
+  .digital-marketing,
+  .ecommerce-solution,
+  .web-development {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  section .wrap {
+    width: 60%;
+  }
+  section img {
+    width: 35%;
+  }
+
+  /* USELESS CODE FROM HERE */
+
+  /* main { */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "app-development" "digital-marketing"
+      "ecommerce-solution" "web-development"; */
+  /* } */
+  /* main section.app-development {
+    grid-area: "app-development";
+  }
+  main section.digital-marketing {
+    grid-area: "digital-marketing";
+  }
+  main section.ecommerce-solution {
+    grid-area: "ecommerce-solution";
+  }
+  main section.web-development {
+    grid-area: "web-development";
+  } */
+  /* } */
+
+  /* USELESS CODE ENDS HERE */
+}
