@@ -49,7 +49,15 @@ header ul li a {
   text-decoration: none;
 }
 header ul li a:hover {
-  color: coral;
+  color: rebeccapurple;
+}
+#active {
+  color: darkred;
+  /* text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 2px; */
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 header #hamburger {
