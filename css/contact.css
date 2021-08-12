@@ -14,7 +14,7 @@ body {
 
 header#main-header {
   background-image: url("../assets/assets/images/servicesCover.png");
-  height: 400px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -35,30 +35,18 @@ header#main-header {
 }
 
 .header-text {
-  margin-top: 200px;
+  margin-top: 270px;
 }
 .header-text h1,
-.header-text p,
-.header-text button {
+.header-text p {
   padding: 15px 0px;
 }
-
-.header-text button {
-  padding: 10px 20px;
-  background: rgba(255, 0, 0, 0.8);
-  color: white;
-  border-radius: 10px;
-  border: none;
-  font-size: 1.1em;
-}
-
 header ul {
   display: flex;
   width: 60%;
   align-items: center;
   justify-content: space-around;
   font-size: 1.3em;
-  /* font-weight: 500; */
 }
 header ul li {
   list-style-type: none;
@@ -69,52 +57,92 @@ header ul li a {
 }
 header ul li a:hover {
   color: rebeccapurple;
-  /* font-weight: bold; */
-  /* font-size: 0.9em; */
 }
 #active {
   color: darkred;
-  /* text-decoration: underline;
-  text-decoration-style: dashed;
-  text-decoration-thickness: 2px; */
   font-size: 0.9em;
   font-weight: bold;
 }
 
-main {
-  margin-top: 50px;
+section .contact-text {
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 70px auto;
 }
 
-main img {
-  width: 100%;
+section .contact-text h2 {
+  margin: 0px 0 50px 0;
 }
 
-main h1 {
-  padding: 30px 0px;
+section .container .right-side {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px 20px;
+  /* margin: 20% 0 2% 0; */
+  /* max-width: 600px; */
+  /* min-height: 530px; */
+  /* max-height: 530px; */
 }
-main p {
-  line-height: 30px;
-}
-section ul {
-  margin: 40px 0px 70px 0px;
-}
-section ul li {
-  line-height: 2em;
+section .container .right-side li {
+  margin: 45px 0px;
   list-style-type: none;
 }
 
-@media (max-width: 768px) {
-  .hide {
-    display: none;
-  }
-}
-.fa-caret-right {
-  color: red;
-  font-size: 1.3em;
-  padding-right: 9px;
+.middle-it {
+  margin: 10% 0;
 }
 
-/* FOOTER STARTS FROM HERE */
+form.form {
+  border: 2px solid rgb(199, 198, 198);
+  border-radius: 5px;
+  padding: 20px 50px 20px 40px;
+  /* margin: 20% 0; */
+  /* max-width: 700px; */
+  /* min-height: 530px; */
+  /* max-height: 530px; */
+}
+
+form.form input {
+  display: block;
+  width: 90%;
+  padding: 12px 30px 12px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(224, 224, 224);
+  margin: 20px 0px;
+}
+
+form.form button {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 20px 0 40px 0;
+  font-size: 1.3em;
+}
+form.form button:hover {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  padding: 12px 0px 12px 10px;
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid rgb(224, 224, 224);
+}
+
+iframe {
+  width: 100%;
+  margin-bottom: 2%;
+  border: 1px solid rgb(243, 243, 243);
+}
+
+/* FOOTER STARTS FROM BELOW */
 
 footer {
   text-align: left;
@@ -176,7 +204,6 @@ footer h3 {
 
 footer ul #location {
   line-height: normal;
-  /* margin: 5px 0px; */
 }
 
 footer #rights {
@@ -197,20 +224,6 @@ footer i {
 /* FOOTER ENDS HERE */
 
 @media (min-width: 768px) {
-  .app-development,
-  .digital-marketing,
-  .ecommerce-solution,
-  .web-development {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  section .wrap {
-    width: 60%;
-  }
-  section img {
-    width: 30%;
-  }
   .show {
     display: none;
   }
@@ -220,32 +233,24 @@ footer i {
   #hamburger {
     display: none;
   }
-
-  /* USELESS CODE FROM HERE */
-
-  /* main { */
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "app-development" "digital-marketing"
-      "ecommerce-solution" "web-development"; */
-  /* } */
-  /* main section.app-development {
-    grid-area: "app-development";
+  section .container .middle-it {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    /* height: 70vh; */
+    /* position: relative; */
+    /* top: -150px; */
   }
-  main section.digital-marketing {
-    grid-area: "digital-marketing";
+  .contact-text p {
+    text-align: left;
   }
-  main section.ecommerce-solution {
-    grid-area: "ecommerce-solution";
-  }
-  main section.web-development {
-    grid-area: "web-development";
-  } */
-  /* } */
+}
 
-  /* USELESS CODE ENDS HERE */
+@media (min-width: 978px) {
+  section .container .middle-it {
+    /* top: -200px; */
+  }
 }
 
 @media (min-width: 1208px) {
@@ -253,13 +258,8 @@ footer i {
     display: flex;
     justify-content: space-between;
   }
-  /* .footer-flex {
-    width: 30%;
-  } */
+
   footer .up-side {
-    /* width: 25%; */
-    /* text-align: left; */
-    /* margin: 0 auto; */
     width: 40%;
   }
   footer .left-side {
@@ -281,11 +281,7 @@ footer i {
     border-radius: 10px;
     padding: 0 20px 10px 0px;
   }
-  /* footer .mid-side p img {
-    padding: 0 30px 3px 0px;
-    position: relative;
-    top: 20px;
-  } */
+
   footer .mid-side .thumb1,
   .thumb2 {
     display: flex;
@@ -299,6 +295,13 @@ footer i {
     margin-left: 50px;
   }
 }
+
+/* @media (min-width: 978px) {
+  /* section .container .middle-it {
+    /* top: -250px; 
+  }
+} */
+
 @media (max-width: 768px) {
   footer .mid-side {
     display: none;
@@ -306,9 +309,26 @@ footer i {
   #main-header .container ul {
     display: none;
   }
+  .right-side {
+    margin-bottom: 30px;
+  }
 }
 
-.right-side .contact-ul a {
+/* USELESS CODE */
+/* @media (min-width: 1450px) {
+  section .container .middle-it {
+    /* top: -300px; 
+  }
+} */
+
+/* @media (min-width: 1750px) {
+  section .container .middle-it {
+    /* top: -360px; 
+  }
+} */
+/* USESLESS CODE ENDS HERE */
+
+footer .right-side a {
   color: white;
   text-decoration: none;
 }
